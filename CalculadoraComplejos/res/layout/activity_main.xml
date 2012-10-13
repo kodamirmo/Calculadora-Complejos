@@ -3,12 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
+    <Button
+        android:id="@+id/matrices"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".Main" />
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/entrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/matrices"
+        android:layout_below="@+id/matrices"
+        android:layout_marginTop="36dp"
+        android:text="Button" />
 
 </RelativeLayout>
