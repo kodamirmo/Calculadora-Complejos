@@ -24,6 +24,10 @@
             android:name=".Matrices"
             android:label="@string/title_activity_matrices" >
         </activity>
+        <activity
+            android:name=".IntroducirDatos"
+            android:label="@string/title_activity_introducir_datos" >
+        </activity>
     </application>
 
 </manifest>
